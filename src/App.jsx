@@ -35,6 +35,9 @@ function App() {
   return (
     <div className="App">
       <div className="container">
+        <h3>
+          Keyword generator by <b>Azkal182</b>
+        </h3>
         <input
           onChange={(e) => setKeyword(e.target.value)}
           name="result"
